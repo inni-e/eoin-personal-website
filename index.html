@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eoin's Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Javascript stuff -->
+    <script defer src="scripts/app.js"></script>
+
+    </head>
+<body>
+    <section id="section-title">
+        
+        <!-- Scroll links -->
+        <div class="title-about-link">
+            <a onclick="scrollToAbout()">
+                <ion-icon name="person"></ion-icon>
+            </a>
+        </div>
+        <div class="title-hobbies-link">
+            <a onclick="scrollToHobbies()">
+                <ion-icon name="heart"></ion-icon>
+            </a>
+        </div>
+        <div class="title-contact-link">
+            <a onclick="scrollToContact()">
+                <ion-icon name="mail"></ion-icon>
+            </a>
+        </div>
+
+        <!-- Title Element -->
+        <div class="title-circle">
+            <img src="images/eoinsface.jpg" class="title-image">
+            <div class="title-text">
+                <p>Eoin Redoblado - Second Year Computer Science Student - </p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="section-about" class="hidden">
+        <!-- About Content -->
+        <div class="about-content">
+            <h1 class="about-content-header">Some things about me...</h1>
+            <p class="about-content-text-1">Yo! I'm Eoin, but I go online by the alias "innie". I'm 19 years old and am currently in my second year of Computer Science :o. Honestly 90% of the time I've got no idea what I'm doing but I get by in class most of the time ;-;.</p>
+            <p class="about-content-text-2">My nationality is Filipino (yea I fit all the stereotypes), my pronouns are he/him and my MBTI is ENFP-A. If you've happened to come across this funny lookin' website, hope to meet you in person :).</p>
+            <p class="about-content-text-3">I also have a dog please say hi to him :D</p>
+        </div>
+
+        <!-- Supporting Media (About) -->
+        <img src="images/face2.jpg" class="about-face">
+        <img src="images/dog.jpg" class="about-dog">
+    </section>
+
+    <section id="section-hobbies" class="hidden">
+        <!-- Hobbies Content -->
+        <h1 class="hobbies-content-header">My Hobbies</h1>
+        <p class="hobbies-content-text">I don't have much related to CSE, but I can do a couple other things:</p>
+
+        <!-- Supporting Media (Hobbies) -->
+        <div class="hobbies-volley">
+            <img src="images/volley.jpg" class="hobbies-image-volley" alt="">
+            <p>Volleyball and Basketball are pre fun, here's my highschool team that i kinda miss</p>
+        </div>
+        <div class="hobbies-art">
+            <img src="images/drawing.jpg" class="hobbies-image-art" alt="">
+            <p>Here's something I drew up not long ago.</p>
+        </div>
+        <div class="hobbies-dance">
+            <img src="images/epicDance.jpg" class="hobbies-image-dance-1" alt="">
+            <img src="images/dance1.jpg" class="hobbies-image-dance-2" alt="">
+            <p>Most of my free time is spent dancing, you'll likely catch me at uni jamming in front of Tyree :o</p>
+        </div>
+        <div class="hobbies-music">
+            <img src="images/mother.jpg" class="hobbies-image-music" alt="">
+            <p>Song: Mother - UMI</p>
+            <p>Been singing this song too much in the shower recently</p>
+        </div>
+        
+    </section>
+
+    <section id="section-contact" class="hidden">
+        <!-- Contact Me -->
+        <h1 class="contact-header">My socials</h1>
+        <div class="contact-items">
+            <div><a href="https://www.instagram.com/inni_.e/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></div>
+            <div><a href="http://discordapp.com/users/391104667872133121." target="_blank"><ion-icon name="logo-discord"></ion-icon></a></div>
+            <div><a href="https://www.facebook.com/jacob.benson123" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></div>
+        </div>
+
+    </section>
+    
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
